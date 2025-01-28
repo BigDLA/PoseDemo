@@ -37,8 +37,8 @@
     <Reference Include="Mono.Reflection, Version=1.1.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
       <HintPath>packages\Mono.Reflection.Core.1.1.1\lib\net45\Mono.Reflection.dll</HintPath>
     </Reference>
-    <Reference Include="Pose, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Poser.2.1.0\lib\netstandard2.0\Pose.dll</HintPath>
+    <Reference Include="Pose">
+      <HintPath>..\..\GitHub\src\Pose\bin\Debug\net48\Pose.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

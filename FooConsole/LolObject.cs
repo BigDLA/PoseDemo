@@ -23,7 +23,13 @@ namespace FooConsole
                 [a] = new CollectionClass()
             };
             var foo = CollectionClass.SomeStaticMethod(a);
+
+            // The second bug:
+            foreach (var i in fooObject.GetIEnumerable())
+                Console.WriteLine(i);
+
             return fooObject.FooRecall();
+
         }
     }
 }

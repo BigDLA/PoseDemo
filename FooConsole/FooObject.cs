@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace FooConsole
 {
@@ -10,5 +11,12 @@ namespace FooConsole
         {
             Attr = attr;
         }
+        
+        public IEnumerable<string> GetIEnumerable()
+        {
+            var dictionary = new Dictionary<string, string>() { { "foo", "b" } };
+            return dictionary.Values;
+        }
+
     }
 }
